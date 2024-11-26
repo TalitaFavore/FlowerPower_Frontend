@@ -1,0 +1,16 @@
+/* index.css */
+@import './App.css';
+
+/* Resetando margens e paddings padrão */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Usando um estilo padrão de fonte */
+body {
+  font-family: 'Arial', sans-serif;
+}

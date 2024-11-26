@@ -1,0 +1,85 @@
+.edit-plant-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-plant-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .edit-plant-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .edit-plant-form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .edit-plant-form input,
+  .edit-plant-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .edit-plant-form input:focus,
+  .edit-plant-form textarea:focus {
+    border-color: #2ecc71;
+  }
+  
+  .edit-plant-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .edit-plant-form button {
+    padding: 0.8rem;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-plant-form button:hover {
+    background-color: #27ae60;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .edit-plant-container {
+      padding: 1.5rem;
+    }
+  
+    .edit-plant-form input,
+    .edit-plant-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .edit-plant-form button {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 7rem;
+  background-image: url("../src/assets/imageform2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-types {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15rem;
+  background-image: url("../src/assets/imageform2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-title {
+  margin: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #354733;
+  text-align: center;
+  width: 100%;
+}
+
+.form {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+
+.input-group {
+  margin-bottom: 0.1rem;
+}
+
+.input-label {
+  color: #354733;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-top: 2px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #354733;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #8a9b6e;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875rem;
+}
+
+/* Responsividade: para telas pequenas */
+@media (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    display: none; /* Esconder imagem em telas pequenas */
+  }
+}

@@ -1,0 +1,57 @@
+.instructions {
+    text-align: center;
+    padding: 4rem 8rem;
+    background-color: #f9f9f9;
+  }
+
+  .instructions-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .instructions-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #354733;
+  }
+  
+  .instructions-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 3rem;
+    width: 75%;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .step {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .step-icon {
+    font-size: 3rem;
+    color: #6ab04c;
+    margin-bottom: 2.5rem;
+    width: 20%;
+  }
+  
+  .step-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    color: #354733;
+  }
+  
+  .step-description {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  

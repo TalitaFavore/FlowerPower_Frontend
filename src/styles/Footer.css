@@ -1,0 +1,81 @@
+.footer-container {
+  background-color: #354733;
+  color: white;
+  padding: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-left {
+  flex: 1;
+  padding: 0.9rem;
+}
+
+.footer-left h2 {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.footer-email {
+  margin-bottom: 1rem;
+}
+
+.footer-middle {
+  display: flex;
+  gap: 6rem;
+  margin: 20px 0;
+}
+
+.footer-links,
+.footer-community {
+  display: flex;
+  flex-flow: column;
+  gap: 0.7rem;
+  
+}
+
+.footer-links h3,
+.footer-community h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-community ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-community li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer-links li:hover,
+.footer-community li:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 3%;
+  border-radius: 0.4rem;
+}
